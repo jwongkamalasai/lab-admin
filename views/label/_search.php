@@ -14,19 +14,27 @@ use yii\widgets\ActiveForm;
         'action' => ['index'],
         'method' => 'get',
     ]); ?>
-
-    <?= $form->field($model, 'id') ?>
-
+    <div class="row">
+    <div class="col-md-2 col-sm-4">
     <?= $form->field($model, 'labcode') ?>
+    </div>
+    <div class="col-md-2 col-sm-4">
 
     <?= $form->field($model, 'labname') ?>
+    </div>
+    <div class="col-md-2 col-sm-4">
 
     <?= $form->field($model, 'filename') ?>
+    </div>
+    <div class="col-md-2 col-sm-4">
 
     <?= $form->field($model, 'fieldname') ?>
+    </div>
+    <div class="col-md-2 col-sm-4">
 
-    <?php // echo $form->field($model, 'fieldlabel') ?>
-
+    <?php echo $form->field($model, 'fieldlabel') ?>
+    </div>
+    </div>
     <?php // echo $form->field($model, 'normal') ?>
 
     <?php // echo $form->field($model, 'unit') ?>

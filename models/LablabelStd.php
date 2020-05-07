@@ -56,20 +56,20 @@ class LablabelStd extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'labcode' => 'Labcode',
-            'labname' => 'Labname',
-            'filename' => 'Filename',
-            'fieldname' => 'Fieldname',
-            'fieldlabel' => 'Fieldlabel',
-            'normal' => 'Normal',
+            'labcode' => 'รหัสแลป',
+            'labname' => 'ชื่อแลป',
+            'filename' => 'ตาราง',
+            'fieldname' => 'คอลัมน์',
+            'fieldlabel' => 'ชื่อ Lab Test',
+            'normal' => 'ค่าปกติ',
             'unit' => 'Unit',
             'inputmask' => 'Inputmask',
             'crimin' => 'Crimin',
             'crimax' => 'Crimax',
             'critext' => 'Critext',
-            'icd10tm' => 'Icd10tm',
-            'tmlt' => 'Tmlt',
-            'loinc' => 'Loinc',
+            'icd10tm' => 'ICD10TM',
+            'tmlt' => 'TMLT',
+            'loinc' => 'LOINC',
         ];
     }
 }
